@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body {
+            font: normal 6pt arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--  <audio src="midia/summer-solstice-on-the-june-planet.mp3" controls autoplay></audio>  -->
+    <!-- formatos que os navegadores são compativeis: MP3, WAV e OGG -->
+    <!-- autoplay para começart automaticamente, controls para mostrar a barra de audio e loop para ficar em looping -->
+    <audio preload="metadata" autoplay controls loop>
+        <!-- tomar cuidado com parâmetro auto no preload pq considera q o site só termina de carregar quando o audio terminar de tocar-->
+        <source src="midia/summer-solstice-on-the-june-planet.mp3" type="audio/mpeg">
+        <source src="midia/summer-solstice-on-the-june-planet.ogg" type="audio/ogg">
+        <source src="midia/summer-solstice-on-the-june-planet.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio, <a href="midia/summer-solstice-on-the-june-planet.mp3">clique aqui para baixar o arquivo MP3</a></p>
+        <!-- o type referido a MP3 e audio/mpeg, para OGG é audio/ogg, e para WAV é audio/wav-->
+    </audio>
+</body>
+</html>

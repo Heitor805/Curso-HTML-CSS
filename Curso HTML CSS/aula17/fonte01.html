@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px ;
+            /*  
+            Medidas Absolutas:
+            cm(centimetro), mm(milímetro), in(polegada), pc(paica), pt(ponto, medida usada no word), px(pixels)
+            recomenda-se px
+            
+            Medidas Relativas
+            em(relativa ao tamanho atual da fonte), ex(relativa a altura da letra 'X' de uma fonte), rem, vw(lagura da width(tela)), vh(altura da tela), %
+            recomenda-se em
+            geralmente 16px = 1em
+            */
+            font-weight: ;
+            /* Lighter, normal, bold, bolder, também pode usar números, 400 é o normal*/
+            font-style: ;
+            /* Itálico(italic) ou normal */
+            text-decoration: ;
+            /* Sublinhado(underline) ou normal */
+        }
+        h1 {
+            /*font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /* Shorthand font, LEMBRAR ORDEM:
+            
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nostrum labore quasi qui a, ex facilis, repellat maxime vel numquam cumque ipsa fugit. Accusamus omnis sed molestias, esse error corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio quibusdam dolore rem deserunt quo fugiat esse, quod doloremque magnam soluta veniam doloribus modi illum, ullam earum ipsam cumque enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dolorem in ea alias quaerat aliquam amet adipisci asperiores, eaque earum ullam, sed officiis ipsum, beatae consequatur explicabo maxime nobis magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde id vitae, aperiam quasi deleniti temporibus soluta quibusdam voluptates qui ut tempora libero impedit omnis nihil iure commodi eos doloremque delectus!</p>
+    <h2>Subtítulo de exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolore nobis quas rerum, officiis nam? Quaerat porro amet perferendis, ratione et cumque dignissimos voluptatibus recusandae. Voluptas vero laboriosam repellat pariatur.</p>
+</body>
+</html>
