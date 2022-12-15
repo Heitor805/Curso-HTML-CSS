@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+            position: relative;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+        }
+        /* adicionar position do container como relative */
+        #conteudo {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            background-color: yellow;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /* adicionar position do conteudo como absolute, q é preciso para usar os comandos left e top */
+        /* translate com números acima de 0 meche para direita e para baixo e números negativos meche para esquerda e cima */
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>

@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: cover;*/
             /* é possivel colocar 100% de altura e 100% de largura, não usado pq achata imagens, precisa de 100vh de height para funcionar */
             /* contain é o comando para exibir 100% da imagem sem nenhum corte */
             /* cover é para cobrir a tela inteira mesmo q corte a imagem, é a melhor solução */
+            background-attachment: fixed;
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover
+            /* 
+            Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+            /* o size não funciona, precisa ser adicionado em outra linha */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
