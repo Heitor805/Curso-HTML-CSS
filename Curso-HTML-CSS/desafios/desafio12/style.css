@@ -1,0 +1,55 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family: 'passionone'; 
+    src: url('fonts/PassionOne-Bold.ttf') format(truetype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'sriracha'; 
+    src: url('fonts/Sriracha-Regular.ttf') format(truetype);
+    font-weight: normal;
+}
+
+:root {
+    --fonte-h1: 'passionone', cursive;
+    --fonte-p: 'sriracha';
+}
+
+* {
+    margin: 0px;
+    font-size: 1em;
+}
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 63px;
+    font-size: 18px;
+}
+h1 {
+    font-size: 10vw;
+    font-variant: small-caps;
+    font-family: var(--fonte-h1);
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover {
+    text-decoration: underline;
+}
+section {
+    max-width: 300px;
+    font-size: 2em;
+    padding-left: 30px;
+    padding-top: 80px;
+    font-weight: bold;
+    font-family: var(--fonte-p);
+}
+section.joaninha {
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    padding: 0px;
+}
