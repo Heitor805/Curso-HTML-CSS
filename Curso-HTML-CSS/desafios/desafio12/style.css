@@ -40,16 +40,25 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-section {
-    max-width: 300px;
-    font-size: 2em;
+main {
+    height: 100vh;
+}
+p {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     padding-left: 30px;
-    padding-top: 80px;
-    font-weight: bold;
+    font-size: 3.5vw;
     font-family: var(--fonte-p);
 }
-section.joaninha {
+section.joaninha > p {
     color: white;
-    background-image: url('imagens/background001.jpg');
-    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 600px;
+}
+section {
+    margin-left: 0px;
+    background-attachment: fixed;
+    background: black url('imagens/background001.jpg') center center no-repeat fixed;
+    background-size: contain
 }
