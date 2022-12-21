@@ -1,24 +1,21 @@
 @charset "UTF-8"; 
 
-@font-face {
-    font-family: 'passionone'; 
-    src: url('fonts/PassionOne-Bold.ttf') format(truetype);
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'sriracha'; 
-    src: url('fonts/Sriracha-Regular.ttf') format(truetype);
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte-h1: 'passionone', cursive;
-    --fonte-p: 'sriracha';
+    --fonte-1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-h1: 'Passion One', cursive;
+    --fonte-p: 'Sriracha', cursive;
 }
 
 * {
     margin: 0px;
-    font-size: 1em;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
 }
 header {
     color: white;
@@ -32,33 +29,55 @@ h1 {
     font-variant: small-caps;
     font-family: var(--fonte-h1);
 }
-header a {
+/* vw = largura da tela, 10 = 10% */
+/* font-variant: uppercase , todas as letras maiúsculas */
+header a, footer a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 main {
-    height: 100vh;
+    font-family: var(--fonte-p);
 }
-p {
-    padding-top: 10vh;
+section {
+    padding: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3.5vw;
-    font-family: var(--fonte-p);
+    font-size: 3vw;
 }
-section.joaninha > p {
+section > p {
+    padding-bottom: 2em;
+}
+section.normal {
+    background-color: white;
+}
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+}
+section.imagem {
     color: white;
-    background-color: rgba(0, 0, 0, 0.363);
-    width: 600px;
-}
-section {
-    margin-left: 0px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.26);
+    background-size: cover;
     background-attachment: fixed;
-    background: black url('imagens/background001.jpg') center center no-repeat fixed;
-    background-size: contain
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 40px;
+    display: inline-block;
+    padding: 30px;
+    text-shadow: 1px 1px 0px black;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
