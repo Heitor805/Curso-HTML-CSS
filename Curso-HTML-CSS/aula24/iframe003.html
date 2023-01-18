@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolores. Ex iusto atque libero incidunt quidem, placeat tempore accusamus a magnam quis vel molestiae aspernatur inventore quod repellendus non! Eos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum delectus asperiores beatae libero qui dolore velit corrupti id eaque aut nostrum, repellendus ad autem quod unde placeat, aliquam consequuntur! Nam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi adipisci fugiat expedita? Consequuntur expedita dicta ut quisquam explicabo at, iste optio! Quo, repellendus consequuntur! Fugit perspiciatis quia quod totam.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <!-- referenciar o iframe usando comando "name" e então se referir a esse nome no target-->
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto impedit nostrum, distinctio aliquid ipsam a quas vero! Dicta illo dolores magnam neque laboriosam suscipit maiores quod inventore, voluptatem quas eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sequi optio maiores reiciendis vel exercitationem sapiente recusandae deserunt non culpa ullam, minima, aliquid cum explicabo est ipsa nulla maxime. Id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus aliquid optio sunt! Iste, porro. Facilis nostrum dolorum rerum laboriosam beatae exercitationem. Voluptatibus facere est magni aliquid aspernatur suscipit et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fuga veritatis asperiores iusto, alias debitis, incidunt ex commodi rem maxime quo tempore culpa dolore aspernatur exercitationem. Eum culpa voluptates accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ea a natus soluta aliquam laborum, quod obcaecati quasi nam in, beatae consequatur quas doloribus atque. Natus voluptatibus accusamus perferendis voluptatum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. In voluptates repellendus consequatur, quod quidem quis officiis veritatis debitis, necessitatibus, sapiente quisquam minima asperiores. Facere itaque sequi ullam officiis temporibus tempora. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam corporis veniam autem cumque eveniet minus distinctio harum saepe quae facilis et iure recusandae, pariatur aspernatur delectus velit repellat! Sint, explicabo?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ducimus autem excepturi mollitia corrupti? Labore alias saepe esse facere sed ex qui omnis. Aut reprehenderit vitae placeat numquam laudantium molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam explicabo doloribus voluptate similique, aperiam recusandae eligendi in delectus nulla! Iure fugit quasi illum! Eius laboriosam facilis, illum soluta iure eos!</p><img src='imagens/cursoemvideo.png'>">
+        <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+    <!-- É possível usar html dentro de srcdoc, assim como adicionar imagens dentro do html -->
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nesciunt harum ipsum doloribus consequuntur repudiandae possimus ratione asperiores cupiditate iusto odio, velit exercitationem officiis libero! Culpa commodi itaque nam obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at dignissimos libero dicta molestiae voluptate alias! Aliquid aut unde aperiam alias sequi nobis exercitationem blanditiis facilis ab. Ullam, quas earum.</p>
+</body>
+</html>
