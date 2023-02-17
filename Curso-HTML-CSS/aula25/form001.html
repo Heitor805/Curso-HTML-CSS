@@ -13,9 +13,11 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" autocomplete="off" method="get">
     <!-- autocomplete="off" para desativar as sugestões q aparecem em baixo da caixa -->
     <!-- action é para enviar os dados de um formulário, então o botão submit irá enviar para esse lugar -->
+    <!-- Existem 2 motivos de envios de formulário, o 1° é o sendo usado nesse html, conhecido como "GET" ou "POST", no get os dados são mostrados em cima da URL do site e no post é possível conseguir essas informações através do inspecionar do navegador, não é muito diferente em proteção, o get tem um limite de 3000 bytes, oq é equivalente a 3000 letras, não deve ser usado get para dados sensíveis e sim post -->
+    <!-- ATENÇÃO: É IMPORTANTE PROTEGER OS DADOS RECOLHIDOS USANDO HTTPS -->
         <p>
             <label for="inome">Nome:</label> 
             <!-- label é importante para conectar o parágrafo "nome" com a caixa de escrita "inome", é importante para telas de celulares -->
@@ -29,6 +31,5 @@
             <input type="submit" value="Enviar">
         </p>
     </form>
-    <!-- diferença entre name e id: php/html precisa q o elemento tenha um "name", javascript precisa q o elemento tenha um "id" e tb é útil para label -->
 </body>
 </html>
