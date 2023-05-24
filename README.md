@@ -28,13 +28,12 @@
  <li><a href="Curso-HTML-CSS/aula21/caixa02.html" target="_blank">aula21 - parte 2</a></li>
  <li><a href="Curso-HTML-CSS/aula21/caixa03.html" target="_blank">aula21 - parte 3</a></li>
  <li><a href="Curso-HTML-CSS/aula22/index.html" target="_blank">aula22</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo001.html" target="_blank">aula22 - parte 2</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo002.html" target="_blank">aula22 - parte 3</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo003.html" target="_blank">aula22 - parte 4</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo004.html" target="_blank">aula22 - parte 5</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo005.html" target="_blank">aula22 - parte 6</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo006.html" target="_blank">aula22 - parte 7</a></li>
- <li><a href="Curso-HTML-CSS/aula22/fundo007.html" target="_blank">aula22 - parte 8</a></li>
+ <li><a href="Curso-HTML-CSS/aula22/fundo002.html" target="_blank">aula22 - parte 2</a></li>
+ <li><a href="Curso-HTML-CSS/aula22/fundo003.html" target="_blank">aula22 - parte 3</a></li>
+ <li><a href="Curso-HTML-CSS/aula22/fundo004.html" target="_blank">aula22 - parte 4</a></li>
+ <li><a href="Curso-HTML-CSS/aula22/fundo005.html" target="_blank">aula22 - parte 5</a></li>
+ <li><a href="Curso-HTML-CSS/aula22/fundo006.html" target="_blank">aula22 - parte 6</a></li>
+ <li><a href="Curso-HTML-CSS/aula22/fundo007.html" target="_blank">aula22 - parte 7</a></li>
  <li><a href="Curso-HTML-CSS/aula23/tabela001.html" target="_blank">aula23</a></li>
  <li><a href="Curso-HTML-CSS/aula23/tabela002.html" target="_blank">aula23 - parte 2</a></li>
  <li><a href="Curso-HTML-CSS/aula23/tabela003.html" target="_blank">aula23 - parte 3</a></li>
