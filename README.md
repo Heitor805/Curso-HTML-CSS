@@ -1,4 +1,9 @@
 # Curso-HTML-CSS
+<style>
+ body {
+  background-color: darkgray;
+ }
+</style>
  <p>Curso que fiz de HTML/CSS</p>
  <p>Para ver os sites acesse: <a href="https://heitor805.github.io/Curso-HTML-CSS/" target="_blank">Clique Aqui</a></p>
  <h1> Aulas </h1>
