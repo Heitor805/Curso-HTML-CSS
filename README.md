@@ -1,6 +1,6 @@
 # Curso-HTML-CSS
  <p>Curso que fiz de HTML/CSS</p>
- <p>Para ver os sites acesse:<a href="https://heitor805.github.io/Curso-HTML-CSS/">Clique Aqui</a></p>
+ <p>Para ver os sites acesse: <a href="https://heitor805.github.io/Curso-HTML-CSS/">Clique Aqui</a></p>
  <h1> Aulas </h1>
  <ul>
  <li><a href="Curso-HTML-CSS/aula01/aula01.html" target="_blank">aula01</a></li>
